@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: "real-estate-3xu5yyxsx-muhammad-ali-maliks-projects.vercel.app",
+        target: "http://localhost:3000",
         secure: false,
       },
     },
